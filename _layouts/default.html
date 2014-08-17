@@ -36,12 +36,12 @@
         <div class="collapse navbar-collapse navbar-ex1-collapse">       
           <ul class="nav navbar-nav navbar-right">
 			
-<li class="noactive"><a href="http://gartempe.github.io/globe-lights/" title="Accueil">Accueil</a></li>
-<li class="static active"><a href="#" title="Test">Test</a></li>
-<li class="noactive"><a href="#" title="Lieux1">Lieux1</a></li>
-<li class="noactive"><a href="#" title="Lieux2">Lieux2</a></li>
-<li class="noactive"><a href="#" title="A propos">A propos</a></li>
-<li class="noactive"><a href="#" title="Carte">Carte</a></li>
+<li class="{% if page.active == "home" %}active{% else %}noactive{% endif %}"><a href="http://gartempe.github.io/globe-lights/" title="Accueil">Accueil</a></li>
+<li class="{% if page.active == "test" %}active{% else %}noactive{% endif %}"><a href="#" title="Test">Test</a></li>
+<li class="{% if page.active == "home" %}active{% else %}noactive{% endif %}"><a href="#" title="Lieux1">Lieux1</a></li>
+<li class="{% if page.active == "home" %}active{% else %}noactive{% endif %}"><a href="#" title="Lieux2">Lieux2</a></li>
+<li class="{% if page.active == "home" %}active{% else %}noactive{% endif %}"><a href="#" title="A propos">A propos</a></li>
+<li class="{% if page.active == "home" %}active{% else %}noactive{% endif %}"><a href="#" title="Carte">Carte</a></li>
 		<!--	<li class="noactive" id="page-blog"><a href="http://dev.gartempe.com/demo/globe/index.php?blog" title="Blog">Blog</a></li> -->
 			
 

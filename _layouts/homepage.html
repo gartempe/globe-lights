@@ -164,6 +164,7 @@ var svg = d3.select("#worldmap").append("svg")
     .attr("width", width)
     .attr("height", height);
 
+/*
 svg.on("mousemove", function() {
   var p = d3.mouse(this);
   projection.rotate([λ(p[0]), 0]);
@@ -172,6 +173,7 @@ svg.on("mousemove", function() {
 
   svg.selectAll("path").attr("d", path);
 });
+*/
 
 d3.json("world-110m.json", function(error, world) {
   svg.append("path")
@@ -180,7 +182,7 @@ d3.json("world-110m.json", function(error, world) {
       .attr("d", path);
 });
 
-var scrollSpeed = 400; var current = 0;
+var scrollSpeed = 100; var current = 0;
     function bgscroll(){
 current += 1;
 projection.rotate([λ(current), 0]);

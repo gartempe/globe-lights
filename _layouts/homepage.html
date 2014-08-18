@@ -185,6 +185,8 @@ var scrollSpeed = 400; var current = 0;
 current += 1;
 projection.rotate([λ(current), 0]);
  $('#machin').text(current);
+   svg.selectAll("path").attr("d", path);
+
 
 //banner.css("backgroundPosition", (direction == 'h') ? current+"px 0" : "0 " + current+"px");
 

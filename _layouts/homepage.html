@@ -163,7 +163,9 @@ var svg = d3.select("#worldmap").append("svg")
 
 svg.on("mousemove", function() {
   var p = d3.mouse(this);
-  projection.rotate([λ(p[0]), φ(p[1])]);
+  projection.rotate([λ(p[0]), 0]);
+ //   projection.rotate([λ(p[0]), φ(p[1])]);
+
   svg.selectAll("path").attr("d", path);
 });
 

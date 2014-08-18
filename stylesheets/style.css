@@ -174,8 +174,8 @@ nav a.flag:hover {opacity:1;}
 .land {color:#008477;fill:#cb8200;}
 #worldmap {position:absolute;top:60px;z-index:2000;}
 
-#turnglobe {}
-#turnglobe:after {
+#turnglobe {position:relative;}
+#turnglobe:before {
 background-color: #da2e75;
 content: "";
 height: 100%;

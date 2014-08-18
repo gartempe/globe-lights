@@ -170,3 +170,5 @@ nav a.flag:hover {opacity:1;}
 .purple .navbar-nav >.active >a:hover{ color:#fff;  background-color:#463265}
 .purple .navbar-toggle{ border-color:#563d7c}
 .purple .navbar-toggle:hover{ background-color:#463265;  border-color:#463265}
+
+.land {color:#008477;fill:#008477;}

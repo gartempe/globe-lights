@@ -176,10 +176,10 @@ d3.json("world-110m.json", function(error, world) {
       .attr("d", path);
 });
 
-var scrollSpeed = 80; var banner = $("#head"); var current = 0; var direction = 'h';
+var scrollSpeed = 80; var current = 0;
     function bgscroll(){
 current -= 1;
-projection.rotate([λ(p[current]), 0]);
+projection.rotate([λ(current), 0]);
 //banner.css("backgroundPosition", (direction == 'h') ? current+"px 0" : "0 " + current+"px");
 
 }

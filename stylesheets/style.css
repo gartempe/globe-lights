@@ -172,7 +172,7 @@ nav a.flag:hover {opacity:1;}
 .purple .navbar-toggle:hover{ background-color:#463265;  border-color:#463265}
 
 .land {color:#008477;fill:#cb8200;}
-#worldmap {position:absolute;top:60px;z-index:2000;}
+#worldmap {/* position:absolute;top:60px;z-index:2000; */}
 
 #turnglobe {position:relative;}
 #turnglobe:before {

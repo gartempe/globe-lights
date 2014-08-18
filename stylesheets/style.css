@@ -173,3 +173,17 @@ nav a.flag:hover {opacity:1;}
 
 .land {color:#008477;fill:#cb8200;}
 #worldmap {position:absolute;top:60px;z-index:2000;}
+
+#turnglobe {}
+#turnglobe:after {
+background-color: #da2e75;
+content: "";
+height: 100%;
+position: absolute;
+top: 0;
+bottom: 0;
+z-index: 0;
+width: 50%;
+right: 0;
+left: 0;
+}

@@ -57,7 +57,7 @@ a {
 .sidebar ul{ border-radius:5px;  padding:5px;  border:1px solid #ccc}
 
 /* Carousel Customization */
-.carousel{ margin-top:0px; height:400px}
+.carousel{ margin-top:0px; height:400px;position:relative;}
 
 .item, 
 .active, 
@@ -172,3 +172,4 @@ nav a.flag:hover {opacity:1;}
 .purple .navbar-toggle:hover{ background-color:#463265;  border-color:#463265}
 
 .land {color:#008477;fill:#008477;}
+#worldmap {position:absolute;top:60px;z-index:2000;}
